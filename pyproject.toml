@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "climatepulse"
+version = "0.1.0"
+description = "Pipeline de dados sobre eventos climáticos extremos nos Estados Unidos (projeto de portfólio)."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
